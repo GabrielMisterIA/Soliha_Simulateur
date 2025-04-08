@@ -1,9 +1,7 @@
 function App() {
   return (
     <div style={{ padding: "2rem", fontSize: "2rem" }}>
-      HELLO WORLD 🚀
+      🚀 Salut GitHub Pages, test 1 !
     </div>
   );
 }
-
-export default App;
