@@ -1,13 +1,13 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter basename="/Soliha_Simulateur">
+    <HashRouter>
       <Routes>
-        <Route path="/" element={<h1>🎉 Hello depuis la racine</h1>} />
-        <Route path="*" element={<h2>404 not found</h2>} />
+        <Route path="/" element={<h1>🚀 Hello via HashRouter</h1>} />
+        <Route path="*" element={<h2>404 😵</h2>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
