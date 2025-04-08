@@ -1,7 +1,12 @@
+import { Routes, Route } from 'react-router-dom';
+
 function App() {
   return (
-    <div style={{ padding: "2rem", fontSize: "2rem" }}>
-      🚀 Salut GitHub Pages, test 1 !
-    </div>
+    <Routes>
+      <Route path="/" element={<h1>✅ Accueil Soliha</h1>} />
+      <Route path="*" element={<h2>404 - Page non trouvée</h2>} />
+    </Routes>
   );
 }
+
+export default App;
